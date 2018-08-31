@@ -1,0 +1,74 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    font-size: 1.5em;
+    width: 1200px;
+    height: 400px;
+    background: pink;
+    margin: auto;
+    padding: 15px;
+    text-align: left;
+    text-shadow: -1px 0px 20px #9292924f;
+    line-height: 1.5;
+    column-gap: 80px;
+    column-rule: 15px solid red;
+    color: red;
+    opacity: 5;
+}
+
+
+ul {
+    list-style-type: ;
+}
+
+.red {
+    height: 300px;
+    width: 300px;
+    background: red;
+    position: absolute;
+    z-index: 4;
+}
+
+.blue {
+    height: 600px;
+    width: 600px;
+    background: blue;
+    position: absolute;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p {
+    text-indent: 5em;
+}

@@ -1,0 +1,43 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+a{
+    color: red;
+/*    font-size: 2em;*/
+}
+
+/*
+.red
+{
+    color: red;
+}
+.size
+{
+    font-size: em;
+}
+*/
+
+.main {
+    background-color: bisque;
+    width: 600px;
+    padding: 30px;
+    height: 500px;
+    margin: auto;
+}
+
+
+ul li
+{
+    display: inline-block;
+}
