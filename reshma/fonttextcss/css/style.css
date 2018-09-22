@@ -1,0 +1,62 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+
+}
+
+h1 {
+   font-family: 'Indie Flower', cursive;
+
+
+    font-size: 3em;
+    color: cadetblue;
+    text-shadow: 3px 0px 2px black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.main {
+    margin: auto;
+    width: 800px;
+    background-color: red;
+    opacity: 1;
+    color: white;
+    padding: 1em;
+    text-align: justify;
+   font-family: 'Indie Flower', cursive;
+
+
+
+    font-weight: normal;
+    text-decoration: none;
+    column-count: 3;
+    column-rule: 2px red dashed;
+    column-gap: 55px;
+
+}
+
+.goodbox {
+    width: 500px;
+    background-color: bisque;
+     margin: auto;
+    padding: 15px;
+    border: 10px red dotted;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.badbox {
+    width: 500px;
+    background-color: bisque;
+    margin: auto;
+    padding: 15px;
+    border: 10px red dotted;
+    font-family: 'Indie Flower', cursive;
+
+}

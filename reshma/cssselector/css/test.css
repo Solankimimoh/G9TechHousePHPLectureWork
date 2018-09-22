@@ -1,0 +1,94 @@
+/*! CSS Used from: https://teconce.com/preview/mayosis/wp-content/themes/mayosis/css/main.min.css?ver=4.9.8 ; media=all */
+@media all{
+a{color:#28375a;}
+a:focus,a:hover{outline:0!important;}
+img{max-width:100%;}
+*,div{margin:0;padding:0;}
+img{border:0;}
+a:focus,a:hover{text-decoration:none!important;color:inherit;}
+::-moz-selection{color:#fff;}
+::selection{color:#fff;}
+a:active,a:focus{outline:0;color:inherit;}
+::-webkit-input-placeholder{color:#28375a;opacity:.5;}
+::-moz-placeholder{color:#28375a;opacity:.5;}
+:-ms-input-placeholder{color:#28375a;opacity:.5;}
+:-moz-placeholder{color:#28375a;opacity:.5;}
+}
+/*! CSS Used from: https://teconce.com/preview/mayosis/wp-content/themes/mayosis/css/essential.css?ver=4.9.8 ; media=all */
+@media all{
+img{border:0;}
+section{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+img{vertical-align:middle;}
+*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+@media print{
+img{page-break-inside:avoid;}
+*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+img{max-width:100%!important;}
+}
+*,:after,:before{box-sizing:border-box;}
+a{color:#3c465a;text-decoration:none;}
+[role=button]{cursor:pointer;}
+}
+/*! CSS Used from: https://teconce.com/preview/mayosis/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.2.1 ; media=all */
+@media all{
+.elementor *,.elementor :after,.elementor :before{-webkit-box-sizing:border-box;box-sizing:border-box;}
+.elementor a{-webkit-box-shadow:none;box-shadow:none;text-decoration:none;}
+.elementor img{height:auto;max-width:100%;border:none;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none;}
+.elementor-align-center{text-align:center;}
+.elementor-align-center .elementor-button{width:auto;}
+.elementor-section{position:relative;}
+.elementor-section .elementor-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-right:auto;margin-left:auto;position:relative;}
+.elementor-section.elementor-section-boxed>.elementor-container{max-width:1140px;}
+.elementor-row{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+@media (max-width:1024px){
+.elementor-row{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+}
+.elementor-column-wrap{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.elementor-column-wrap,.elementor-widget-wrap{width:100%;position:relative;}
+.elementor-widget{position:relative;}
+.elementor-widget:not(:last-child){margin-bottom:20px;}
+.elementor-column{position:relative;min-height:1px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.elementor-column-gap-extended>.elementor-row>.elementor-column>.elementor-element-populated{padding:15px;}
+@media (min-width:768px){
+.elementor-column.elementor-col-33{width:33.333%;}
+}
+@media (max-width:767px){
+.elementor-column{width:100%;}
+}
+.elementor-element .elementor-widget-container{-webkit-transition:background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;transition:background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;-o-transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;}
+.elementor-button{display:inline-block;line-height:1;background-color:#818a91;color:#fff;text-align:center;-webkit-transition:all .5s;-o-transition:all .5s;transition:all .5s;}
+.elementor-button:focus,.elementor-button:hover,.elementor-button:visited{color:#fff;}
+.elementor-button.elementor-size-md{font-size:16px;padding:15px 30px;-webkit-border-radius:4px;border-radius:4px;}
+.elementor-button .elementor-button-text{display:inline-block;}
+.elementor-button span{text-decoration:inherit;}
+.elementor-widget-image{text-align:center;}
+.elementor-widget-image .elementor-image>a{display:block;}
+.elementor-widget-image .elementor-image img{vertical-align:middle;display:inline-block;}
+}
+/*! CSS Used from: https://teconce.com/preview/mayosis/wp-content/uploads/elementor/css/global.css?ver=1536439127 ; media=all */
+@media all{
+.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}
+.elementor-widget:not(:last-child){margin-bottom:30px;}
+}
+/*! CSS Used from: https://teconce.com/preview/mayosis/wp-content/uploads/elementor/css/post-12.css?ver=1536442581 ; media=all */
+@media all{
+.elementor-12 .elementor-element.elementor-element-c4483fe{padding:40px 0px 160px 0px;}
+.elementor-12 .elementor-element.elementor-element-64d0836 .elementor-image img{filter:brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );}
+.elementor-12 .elementor-element.elementor-element-162e8d1 a.elementor-button,.elementor-12 .elementor-element.elementor-element-162e8d1 .elementor-button{color:#ffffff;background-color:#5a00f0;}
+.elementor-12 .elementor-element.elementor-element-817e6cd a.elementor-button,.elementor-12 .elementor-element.elementor-element-817e6cd .elementor-button{color:#ffffff;background-color:#239b41;}
+.elementor-12 .elementor-element.elementor-element-36c0068 a.elementor-button,.elementor-12 .elementor-element.elementor-element-36c0068 .elementor-button{color:#ffffff;background-color:#6e65d8;}
+}
+/*! CSS Used from: Embedded */
+a{color:#28375a;}
+::-webkit-input-placeholder,::-moz-placeholder{color:#28375a!important;}
+::-moz-selection{background-color:#28375a!important;}
+::selection{background-color:#28375a!important;}
+a:hover{color:#5a00f0;}
+/*! CSS Used from: Embedded */
+.custom-shdaoe{box-shadow:0px 5px 10px rgba(0,0,0,.2);transition:all .5s ease-in-out;border-radius:10px;box-sizing:border-box;}
+.custom-shdaoe img{border-radius:10px;box-sizing:border-box;}
+.custom-shdaoe:hover{box-shadow:0px 10px 20px rgba(0,0,0,.5);transition:all .5s ease-in-out;transform:scale(1.02, 1.02);}

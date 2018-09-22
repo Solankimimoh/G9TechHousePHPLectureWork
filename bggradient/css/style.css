@@ -1,0 +1,20 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    /*  background-image: url(../images/bg.png),url(https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);*/
+    /*    background-position: center top;*/
+    /*    background-color: yellow;*/
+    background-image: repeating-linear-gradient(145deg,black 2px, white 3px);
+
+}

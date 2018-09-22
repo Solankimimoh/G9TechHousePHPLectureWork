@@ -1,0 +1,62 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.main {
+    width: 400px;
+    height: 500px;
+    background-color: bisque;
+    padding: 20px;
+    font-size: 1.5em;
+    line-height: 1.4;
+}
+
+li {
+    list-style-type: armenian
+}
+
+
+.redBox {
+    background-color: red;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+.blueBox
+{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 2;
+   
+}
+
+.brand
+{
+     font-size: 4em;
+}
+.brand::before
+{
+    position: absolute;
+    top: 35px;
+    background-color: beige;
+    width: 70px;
+    height: 40px;
+}
+.greenBox{
+    background-color: green;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    z-index: 0;
+}
