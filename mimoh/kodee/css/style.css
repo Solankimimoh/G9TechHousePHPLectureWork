@@ -1,0 +1,61 @@
+/*
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background: pink;
+}
+
+.item {
+    font-size: 2em;
+    color: red;
+    border: 2px blue solid;
+    padding: 40px;
+
+}
+
+.item:nth-child(1)
+{
+    order: 1;
+    flex-grow: 4;
+}
+
+.item:nth-child(2)
+{
+    order: 3;
+}
+.item:nth-child(3)
+{
+    order: 2;
+}
+*/
+
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    background: pink;
+}
+
+.item {
+    background-color: purple;
+    border: 2px yellow solid;
+    float: left;
+ 
+    
+}
+
+.box
+{
+    border-radius: 4em;
+}

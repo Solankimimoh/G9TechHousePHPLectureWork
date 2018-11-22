@@ -1,0 +1,75 @@
+/* Credit to Paulund http://www.paulund.co.uk/boilerplate-css-media-queries */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+    .item
+    {
+        width: 100%;
+        height: 33.33%;
+    }
+    
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+    .item
+    {
+        width: 50%;
+        height: 33.33%;
+    }
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+ 
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+
+    .item
+    {
+        width: 33.33%;
+        height: 33.33%;
+    }
+    
+}
+ 
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+ .item
+    {
+        width: 33.33%;
+        height: 33.33%;
+    }
+}
+ 
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
